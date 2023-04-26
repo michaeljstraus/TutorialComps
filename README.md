@@ -4,11 +4,26 @@ Looks like you've stumbled across the Solar Panel Data Analysis Git Repository. 
 
 **Setup**
 
-There are two ways to use the tutorial above. One is using your local machine, and assumes you have many libraries such as Numpy and Matplotlib installed. The alternative recommended way involves making a copy of the attached Google Colab file that you can adjust as necessary
-*Option 1 (Google Colab) **Recommended** *
-*Option 2 (Jupyter Notebooks)*
+There are two ways to use the tutorial above. One is using your local machine, and assumes you have many libraries such as Numpy and Matplotlib installed. The alternative way involves making a copy of the attached Python Notebook file that you can adjust as necessary.
+
+*Option 1 (Google Colab) **Recommended***
+
+Although this method requires the use of online software which can be considered intimidating at first, in the end it is the easier option. Not only does it come with all libraries preinstalled and ready to go, but it also has flexible capacity which can be expanded to make your code run faster.
 
 1. You will first want to clone the above repository on to your computer. This can be done by typing git clone into the command line while you are in a valid repository. More details [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+3. Find the cloned project on your GitHub page. Click on the "Code" button, and then "Download as Zip"![image](https://user-images.githubusercontent.com/70772760/234469995-7a979c34-58ab-4e86-975e-95c5c7a5459b.png)
+4. Click on the .ipynb file, and then "Open in Google Colab"
+5. Sign into your Google account. If you don't have one, you will not be able to save your work.
+6. You should see all the data and outputs! Unfortunately, it won't work yet, as the data involving irradiance and AC input is zipped. In order to make it accessible to the program at large, you will use Linux commands through the versatile Colab interface. 
+    1. Go to the top of your notebook and click on (+ Code). 
+    2. Then, type ```!unzip kaggle.zip```     and run the cell with Ctrl+Enter. 
+    3. Delete or comment out that cell, to avoid an annoying text box prompt.
+
+Now, you should be able to modify and add code to the repository, with standard Git knowledge!
+
+*Option 2 (Jupyter Notebooks)*
+
+1. Clone the repository, as before
 2. Then, search online for how to use and get the following libraries on your PC (if they are not already installed):
     1. Matplotlib
     2. Seaborn
@@ -20,3 +35,4 @@ There are two ways to use the tutorial above. One is using your local machine, a
 3. Open the .ipynb in Jupyter Notebooks. For how to do that, visit [this Jupyter Notebooks tutorial](https://docs.jupyter.org/en/latest/running.html). 
 4. Run the code. If it's your first time using Jupyter, you can run the notebook using [this](https://docs.qubole.com/en/latest/user-guide/notebooks-and-dashboards/notebooks/jupyter-notebooks/running-jupy-notebooks.html) series of commands - Run, and then Run All. You should see the same results, graphs, files etc pop up as was saved in the notebook, but now you can adapt the Python file to fit your needs. Running any block can be done with shift enter
     
+Great work! Now scroll through the tutorial and enjoy learning about the correlation of variables relating to local panel aggregation!
