@@ -12,7 +12,7 @@ Although this method requires the use of online software which can be considered
 
 1. You will first want to clone the above repository on to your computer. This can be done by typing git clone into the command line while you are in a valid repository. More details [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 3. Find the cloned project on your GitHub page. Click on the "Code" button, and then "Download as Zip"![image](https://user-images.githubusercontent.com/70772760/234469995-7a979c34-58ab-4e86-975e-95c5c7a5459b.png)
-4. Click on the .ipynb file, and then "Open in Google Colab"
+4. Click on the .ipynb file, and then "Open in Google Colab"![image](https://user-images.githubusercontent.com/70772760/234482018-0c3f2482-4fef-4477-963f-b6af45443eb4.png)
 5. Sign into your Google account. If you don't have one, you will not be able to save your work.
 6. You should see all the data and outputs! Unfortunately, it won't work yet, as the data involving irradiance and AC input is zipped. In order to make it accessible to the program at large, you will use Linux commands through the versatile Colab interface. 
     1. Go to the top of your notebook and click on (+ Code). 
