@@ -16,8 +16,9 @@ Although this method requires the use of online software which can be considered
 5. Sign into your Google account. If you don't have one, you will not be able to save your work.
 6. You should see all the data and outputs! Unfortunately, it won't work yet, as the data involving irradiance and AC input is zipped. In order to make it accessible to the program at large, you will use Linux commands through the versatile Colab interface. 
     1. Go to the top of your notebook and click on (+ Code). 
-    2. Then, type ```!unzip kaggle.zip```     and run the cell with Ctrl+Enter. 
-    3. Delete or comment out that cell, to avoid an annoying text box prompt.
+    2. Drag the zipped folder into the Google Colab instance. It should show up if you click the folder icon on the side.
+    3. Run the cell that starts with ```!unzip kaggle.zip``` and run the cell with Ctrl+Enter. 
+    4. Comment out that cell, to avoid an annoying text box prompt. You will need to use that code again whenever you restart the instance (or the instance is                restarted for you)
 
 Now, you should be able to modify and add code to the repository, with standard Git knowledge!
 
