@@ -1,6 +1,6 @@
 **Hello Solar Panel Data Analyzers**
 
-Looks like you've stumbled across the Solar Panel Data Analysis Git Repository. It contains both solar data and a python notebook to interpret all of that information. The end goal here is to determine what variables are the most indicative of solar output. This will make it so that when I build my machine learning model, I can adjust my irradiance, temperature, and alternating current variables accordingly.
+Looks like you've stumbled across the Solar Panel Data Analysis Git Repository. It contains irradiance, capacity, and panel temperature data, as well as a python notebook to interpret all of that information. The end goal here is to determine what variables are the most indicative of power output. This will make it so I can adjust my irradiance, temperature, and alternating current variables within my machine learning model according to real world associations.
 
 **Setup**
 
