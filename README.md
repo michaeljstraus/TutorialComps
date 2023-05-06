@@ -6,7 +6,7 @@ Looks like you've stumbled across the Solar Panel Data Analysis Git Repository. 
 
 There are two ways to use the tutorial above. One is using your local machine, and assumes you have many libraries such as Numpy and Matplotlib installed. The alternative way involves making a copy of the attached Python Notebook file that you can adjust as necessary.
 
-*Option 1 (Google Colab) **Recommended***
+*Option 1 (Google Colab v 3.8) **Recommended***
 
 Although this method requires the use of online software which can be considered intimidating at first, in the end it is the easier option. Not only does it come with all libraries preinstalled and ready to go, but it also has flexible capacity which can be expanded to make your code run faster.
 
