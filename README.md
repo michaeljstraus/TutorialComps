@@ -35,6 +35,6 @@ Now, you should be able to modify and add code to the repository, with standard 
     6. Cufflinks
     7. Jupyter Notebooks
 3. Open the .ipynb in Jupyter Notebooks. For how to do that, visit [this Jupyter Notebooks tutorial](https://docs.jupyter.org/en/latest/running.html). 
-4. Run the code. If it's your first time using Jupyter, you can run the notebook using [this](https://docs.qubole.com/en/latest/user-guide/notebooks-and-dashboards/notebooks/jupyter-notebooks/running-jupy-notebooks.html) series of commands - Run, and then Run All. You should see the same results, graphs, files etc pop up as was saved in the notebook, but now you can adapt the Python file to fit your needs. Running any block can be done with shift enter
+4. Run the code. If it's your first time using Jupyter, you can run the notebook using [this](https://docs.qubole.com/en/latest/user-guide/notebooks-and-dashboards/notebooks/jupyter-notebooks/running-jupy-notebooks.html) series of commands - Run, and then Run All. You should see the same results, graphs, files etc pop up as was saved in the notebook, but now you can adapt the Python file to fit your needs. Running any block can be done with shift + enter.
     
 Great work! Now scroll through the tutorial and enjoy learning about the correlation of variables relating to local panel aggregation!
